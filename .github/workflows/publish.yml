@@ -33,4 +33,4 @@ jobs:
           client_secret: ${{ secrets.SECRET }}
           refresh_token: ${{ secrets.TOKEN }}
           extension_id: ${{ secrets.EXTENSION_ID }}
-          zip_file: 'release.zip'
+          zip_file: 'tc.zip'
