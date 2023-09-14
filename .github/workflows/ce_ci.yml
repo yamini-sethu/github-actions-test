@@ -39,7 +39,7 @@ jobs:
           # fill in your build steps here...
           # we archive the dist folder and include SHA commit as the last step
           mkdir tcCrExtension
-          cp *.js *.htm tcCrExtension
+          cp *.js *.htm manifest.json tcCrExtension
           #zip -r chrome-extension-${{ github.event.pull_request.head.sha }}.zip tcCrExtension
           zip -r tcCrExtension.zip tcCrExtension
           
