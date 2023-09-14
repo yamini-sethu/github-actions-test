@@ -42,6 +42,13 @@ jobs:
           cp *.js *.htm tcCrExtension
           #zip -r chrome-extension-${{ github.event.pull_request.head.sha }}.zip tcCrExtension
           zip -r tcCrExtension.zip tcCrExtension
+          
+      - name: Archive chrome-extension artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: tcCrExtension
+          path: tc/chrome/plugins/tcCrExtension.zip
+
 
   
   # api usage reference:
