@@ -1,6 +1,5 @@
 {
 	"update_url": "https://clients2.google.com/service/update2/crx",
-	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw3Xq6g0hw321rQQDrp4LEV7aIFZ10wiob34U5yaGvds93vxO0WvQLdcYIJ+LFVcN6VrgRREIePnZQJYG6IgnmMcT9Ogox8AobXVQJaqyVSjZhTgvXOKTf5T6xh8kjEE4Va3mtTG/BGoqtpHEvbVYii0pRmVc0oZomz25d2lyDfbA17v7Kh+0oXn0T9AnKJd2+m5bDusWUo53vklbz54TLTDRM2GJtKUJQbbPwLV/t6fDdvtu3t5GSmtnekP24xMG0m4u13vc5Ir9E8zaEZucPqowIs6u6dIGZhB2TKHMNk+SHfJqlRt02KJupeg6esI5cxsvLKeFZmo/B/BwC5phswIDAQAB",
 	"manifest_version": 2,
 	"name": "SmartBear Test Extn",
 	"version": "1.0.0",
